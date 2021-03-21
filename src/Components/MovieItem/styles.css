@@ -1,0 +1,77 @@
+.movie-item {
+    border-top: 1px solid var(--primary-color);
+    margin-top: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.movie-item header {
+    padding: 3rem 2rem;
+    display: flex;
+    align-items: flex-start;
+}
+.movie-item header div strong {
+    font: 700 1.6rem Archivo;
+    display: block;
+    color: var(--title-color);
+}
+.movie-item header div span {
+    font-size: 1rem;
+    display: block;
+    margin-top: 0.4rem;
+}
+.movie-item aside {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.movie-item aside p strong {
+    color: var(--title-color);
+    font-size-adjust: 1.6rem;
+    display: block;
+}
+
+.movie-item aside a {
+    padding: 20px 20px;
+    border: 0;
+    cursor: pointer;
+    font: 700 2.0rem Ubuntu;
+    transition: 0.2s;
+}
+.movie-item aside a:hover {
+    color: #7b828a;
+}
+
+.favoff {
+  color: rgb(70, 70, 70);
+  fill: true;
+}
+.favon {
+  color: rgb(21, 255, 0);
+  fill: true;
+}
+.movie-item aside p {
+  font-size: 1rem;
+  margin-top: -10px;
+}
+
+@media (max-width: 700px) {
+  .movie-item header,
+  .movie-item aside {
+    padding: 2.4rem;
+  }
+  .movie-item > p {
+    padding: 0 3.2rem;
+  }
+  .movie-item  aside p strong {
+    display: initial;
+    margin-left: 1.2rem;
+  }
+  .movie-item  aside a {
+    font-size-adjust: 1.2rem;
+    justify-content: center;
+  }
+}

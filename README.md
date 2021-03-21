@@ -1,34 +1,43 @@
-# dev-cinemapp
+<h1 align="center">
+    <img alt="Cinema APP" title="#CinemaAPP" src=".github/logo.svg" width="250px" />
+</h1>
+<h4 align="center"> 
+# Cinema APP.<p>
+💻 an application made with node.js & react
+</h4>
 
-### Olá amigx,
+<h1 align="center">
+  <a href="https://www.linkedin.com/in/marcoscardosomartins/">
+    <img alt="by marcoscmartins" src="https://img.shields.io/badge/made%20by-marcoscmartins-green">
+  </a>
+</h1>
+<h1 align="center">
+    <img alt="application-page" title="application-page" src=".github/01_home.png" width="600px" />
+</h1>
 
-### Seja bem vindx ao nosso desafio!
+## Sobre a aplicação
+#### O objetivo do aplicativo é possibilitar que o usuário crie uma lista de filmes favoritos particular.
 
-Nosso passatempo favorito nessa quarentena tem sido assistir filmes e seriados, por isso pensamos em desenvolver uma solução que nos ajude na hora de selecionar o que mais gostamos. Caso você aceite o nosso desafio, precisamos que você implemente um sistema (fique a vontade pra escolher entre web ou mobile) onde será possível buscar por filmes e series utilizando a API (http://www.omdbapi.com/). Com todos esses filmes a nossa disposição queremos basicamente separar nossos favoritos, para que possamos encontrá-los facilmente depois. Portanto a sua solução deve:
+## Disponível em
+[netlify](https://www.rocketseat.com.br)
 
-- Permitir a busca por filmes que gostamos
-- Listar os filmes encontrados
-- Permitir que escolhamos nosso filmes favoritos
-- Permitir que removamos um filme de nossos favoritos (às vezes um filme enjoa)
-- Listar nossos filmes favoritos
+## Clone o projeto
+#### Clone Repository
+$ git clone https://github.com/marcoscmartins/dev-cinemapp.git
 
-Para auxiliar você nesse processo fizemos um protótipo rápido utilizando o Figma. Se quiser conferir é só seguir o link:
+## Como executá-lo
+#### Go to web folder
+$ cd Proffy/web
 
-[https://www.figma.com/proto/UE8zfSxxf8K0TzpgslbYhz/CinemAPP?node-id=1%3A28&scaling=contain](https://www.figma.com/proto/UE8zfSxxf8K0TzpgslbYhz/CinemAPP?node-id=1%3A28&scaling=contain)
+#### Install Dependencies
+$ yarn install
 
+#### Run Aplication
+$ yarn start
+Go to http://localhost:3000/ to see the result.
 
-Para facilitar um pouco mais as coisas, já deixamos separada uma chave de acesso para a API (ou você pode criar a sua também):
+## Desenvolvido com
+#### Essas principais tecnologias
 
-```
-Chave de API: 925eba28
-Exemplo requisição: GET http://www.omdbapi.com/?apikey=925eba28&s=batman
-```
-
-Você pode desenvolver uma solução web ou mobile (react-native), se escolher a primeira opção é importante que consigamos utilizá-la também em nossos celulares.
-
-## Entrega da sua solução
-
-Deixe bem claro suas premissas, suposições e como executamos seu código. Para entregar essa solução, de um “fork” neste repositório e nos mande o link do novo repositório quando finalizar a tarefa.
-
-
-No mais aguardamos seu retorno. Boa sorte :)
+- [Node.js](https://nodejs.org/en/) 
+- [React](https://reactjs.org)
