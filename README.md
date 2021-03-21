@@ -18,8 +18,8 @@
 ## Sobre a aplicação
 #### O objetivo do aplicativo é possibilitar que o usuário crie uma lista de filmes favoritos particular.
 
-<!-- ## Disponível em
-[netlify](https://www.rocketseat.com.br) -->
+## Disponível em
+[netlify](https://hungry-lichterman-ab5649.netlify.app/)
 
 ## Clone o projeto
 #### Clone Repository
