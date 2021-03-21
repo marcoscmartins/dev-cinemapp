@@ -18,8 +18,8 @@
 ## Sobre a aplicação
 #### O objetivo do aplicativo é possibilitar que o usuário crie uma lista de filmes favoritos particular.
 
-## Disponível em
-[netlify](https://www.rocketseat.com.br)
+<!-- ## Disponível em
+[netlify](https://www.rocketseat.com.br) -->
 
 ## Clone o projeto
 #### Clone Repository
@@ -27,7 +27,7 @@ $ git clone https://github.com/marcoscmartins/dev-cinemapp.git
 
 ## Como executá-lo
 #### Go to web folder
-$ cd Proffy/web
+$ cd dev-cinemaapp
 
 #### Install Dependencies
 $ yarn install
