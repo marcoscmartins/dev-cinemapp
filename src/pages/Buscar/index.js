@@ -15,7 +15,7 @@ const Buscar = () => {
 
     event.preventDefault();
     
-    await api.get(`http://www.omdbapi.com/?apikey=925eba28&s=${name}`)
+    await api.get(`https://www.omdbapi.com/?apikey=925eba28&s=${name}`)
     .then(response => {
         if (!!response.data.Search) {
           setMovies(response.data.Search)

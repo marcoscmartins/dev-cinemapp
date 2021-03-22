@@ -32,7 +32,7 @@ const Favoritos = (props) => {
   
   async function searchMovie(imdb) {
 
-    let movie = await api.get(`http://www.omdbapi.com/?apikey=925eba28&i=${imdb}`)
+    let movie = await api.get(`https://www.omdbapi.com/?apikey=925eba28&i=${imdb}`)
     .then(response => {
       return response
     })
