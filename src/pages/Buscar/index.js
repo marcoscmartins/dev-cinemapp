@@ -23,7 +23,6 @@ const Buscar = () => {
             pathname: `/resultado`,
             state: { movies: response.data.Search },
           });
-          console.log(movies);
         }
     })
     .catch(err => {

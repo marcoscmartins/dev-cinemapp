@@ -48,7 +48,7 @@ const MovieItem = ({ movie, fav }) => {
       </header>
 
       <aside>
-        <a onClick={createFavorite} href="#" target="_blank" className={favorite ? 'favon' : 'favoff'}>
+        <a onClick={createFavorite} target="_blank" className={favorite ? 'favon' : 'favoff'}>
           <span><FiStar /></span>
         </a>
         <p>{favorite ? 'remover' : 'favoritar'}</p>

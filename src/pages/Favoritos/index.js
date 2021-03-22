@@ -14,8 +14,8 @@ const Favoritos = (props) => {
   useEffect(() => {
     const itens = localStorage.getItem('movies-imdb');
     if (itens.length) {
-      console.log(imdb);
-      setIMDB(itens.split(','));
+      const imdb = itens.split(',');
+      setIMDB(imdb);
       searchMovies(imdb);
     }
   }, []);
