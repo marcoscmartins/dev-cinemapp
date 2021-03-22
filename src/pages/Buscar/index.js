@@ -9,7 +9,6 @@ const Buscar = () => {
 
   const history = useHistory();
   const [name, setName] = useState('');
-  const [movies, setMovies] = useState([]);
 
   async function handleSubmit(event) {
 
@@ -18,7 +17,6 @@ const Buscar = () => {
     await api.get(`https://www.omdbapi.com/?apikey=925eba28&s=${name}`)
     .then(response => {
         if (!!response.data.Search) {
-          setMovies(response.data.Search)
           history.push({
             pathname: `/resultado`,
             state: { movies: response.data.Search },

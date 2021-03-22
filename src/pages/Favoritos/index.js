@@ -9,13 +9,13 @@ import MovieItem from '../../Components/MovieItem';
 const Favoritos = (props) => {
 
   const [movies, setMovies] = useState([]);
-  const [imdb, setIMDB] = useState([]);
+  // const [imdb, setIMDB] = useState([]);
 
   useEffect(() => {
     const itens = localStorage.getItem('movies-imdb');
     if (itens.length) {
       const imdb = itens.split(',');
-      setIMDB(imdb);
+      // setIMDB(imdb);
       searchMovies(imdb);
     }
   }, []);
